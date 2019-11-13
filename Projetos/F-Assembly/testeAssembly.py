@@ -38,7 +38,6 @@ def testeAssembly(jar, testDir, nasmDir, hackDir, gui, verbose):
         print("- Simulando              ")
         print("-------------------------")
 
-        import pdb; pdb.set_trace()
         clearTestDir(testDir)
 
         sError, sLog = simulateFromTestDir(testDir, hackDir, gui, verbose)
