@@ -1,0 +1,137 @@
+site_name: 'Elementos de Sistemas - Z01'
+theme:
+  feature:
+    tabs: true
+  name: 'material'
+  palette:
+      primary: 'white'
+      accent: 'pink'
+  logo:
+      icon: 'developer_board'
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+docs_dir: docs-src
+site_dir: docs
+
+repo_name: 'Insper/Z01.1'
+repo_url: 'https://github.com/insper/Z01.1'
+edit_uri: 'https://github.com/Insper/Z01.1/edit/master/docs-src/'
+
+# Copyright
+copyright: 'Copyright &copy; Rafael Corsi @ insper'
+
+
+nav:
+- Home:
+  - 'index.md'
+  - 'Critérios de Avaliação': 'Sobre-Criterios-de-Avaliacao.md'
+  - 'Rubricas Projetos': 'Sobre-Rubricas.md'
+
+- Uteis:
+  - 'Vixi! Sou Scrum Master': 'Util-Vixi!-Sou-Scrum-Master.md'
+  - 'Dicas git': 'Util-Dicas-GIT.md'
+  - 'Vídeo Aulas': 'Util-Video-Aulas.md'
+  - 'Infra':
+    - 'Infraestrutura': 'Util-Infraestrutura.md'
+  - 'ZO1.1':
+    - 'Z01.1 Cheat Sheet': 'Util-Z01.1-Cheat-Sheet.md'
+    - 'Instruction Set': 'Util-InstructionSet.md'
+    - 'Resumo Assembly': 'Util-Resumo-Assembly.md'
+    - 'Resumo VM': 'Util-Resumo-VM.md'
+
+- Labs:
+  - 'Resumo': 'Util-Resumo-Labs.md'
+  - '16: I VM Lab 1': 'I-VM-Lab-1.md'
+  - '15: H Assembler Lab 1':
+      - 'H-Assembler-Lab-1.md'
+      - 'Parte 1': 'H-Assembler-Lab-1-[parte-1].md'
+      - 'Parte 2': 'H-Assembler-Lab-1-[parte-2].md'
+      - 'Parte 3': 'H-Assembler-Lab-1-[parte-3].md'
+      - 'Parte 4': 'H-Assembler-Lab-1-[parte-4].md'
+      - 'Parte 5': 'H-Assembler-Lab-1-[parte-5].md'
+  - '14: G CPU Lab 1': 'G-CPU-Lab-1.pdf'
+  - '13: F Assembly Lab 3': 'F-Assembly-Lab-3.md'
+  - '12: F Assembly Lab 2': 'F-Assembly-Lab-2.md'
+  - '11: F Assembly Lab 1': 'F-Assembly-Lab-1.md'
+  - '10: E Sequencial Lab 1': 'E-Sequencial-Lab-1.md'
+  - '9 : D ULA Lab 1': 'D-ULA-Lab-1.md'
+  - '8 : D ULA Lab 2': 'D-ULA-Lab-2.md'
+  - '6 : C Logica Comb. Lab 3': 'C-Logica-Combinacional-Lab-3.md'
+  - '7 : C Logica Comb. Lab 2': 'C-Logica-Combinacional-Lab-2.md'
+  - '5 : C Logica Comb. Lab 1': 'C-Logica-Combinacional-Lab-1.md'
+  - '4 : B CI Lab 1': 'B-Circuitos-Integrados-Lab-2.md'
+  - '3 : B CI Lab 2': 'B-Circuitos-Integrados-Lab-1.md'
+  - '2 : A Transistores Lab 1': 'A-Transistores-Lab-1.md'
+  - '1 : A Transistores Lab 2': 'A-Transistores-Lab-2.md'
+
+- 'Projetos':
+  - 'Util-Resumo-Projetos.md'
+  - 'X - Mundo real': 'X-Processadores-Projeto.md'
+  - 'I - VM':
+    - 'Projeto': 'I-VM-Projeto.md'
+    - 'VM Linguagem': 'Util-Resumo-VM.md'
+    - 'VM Memória': 'I-VM-Ferramental-Memoria.md'
+  - 'H - Assembler':
+    - 'Projeto': 'H-Assembler-Projeto.md'
+    - 'Prerequisitos': 'H-Assembler-Prerequisitos.md'
+    - 'Testando': 'H-Assembler-Testando.md'
+    - 'Dicas SymbolTable': 'H-Assembler-Dicas-SymbolTable.md'
+    - 'Dicas Macro': 'H-Assembler-Dicas-Macro.md'
+  - 'G - CPU':
+    - 'CPU Projeto': 'G-CPU-Projeto.md'
+    - 'Dicas testando': 'G-CPU-Testando.md'
+    - 'Dicas rubrica B': 'G-CPU-Dicas-Conceito-B-e-A.md'
+  - 'F - Assembly':
+    - 'Projeto': 'F-Assembly-Projeto.md'
+    - 'Dicas': 'F-Assembly-Dicas.md'
+    - 'Resumo Assembly': 'Util-Resumo-Assembly.md'
+  - 'E - Lógica Sequencial':
+    - 'Projeto': 'E-Sequencial-Projeto.md'
+  - 'D - ULA':
+    - 'Projeto': 'D-ULA-Projeto.md'
+  - 'C - Lógica Combinacional':
+    - 'Projeto': 'C-Logica-Combinacional-Projeto.md'
+  - 'B - Circuitos Integrados': 'B-Circuitos-Integrados-Projeto.md'
+  - 'A - Transistores': 'A-Transistores-Projeto.md'
+
+- 'Aulas':
+    'Aulas': 'Util-Aulas.md'
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+
+plugins:
+    - search
+#    - pdf-export
+

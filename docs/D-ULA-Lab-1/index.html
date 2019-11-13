@@ -1,0 +1,1605 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.3">
+    
+    
+      
+        <title>9 : D ULA Lab 1 - Elementos de Sistemas - Z01</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.96cc8824.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.268332fc.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="white" data-md-color-accent="pink">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#1-configurando-travis" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="Elementos de Sistemas - Z01" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon">developer_board</i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Elementos de Sistemas - Z01
+            </span>
+            <span class="md-header-nav__topic">
+              
+                9 : D ULA Lab 1
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/insper/Z01.1/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Insper/Z01.1
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href=".." class="md-tabs__link">
+          Home
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../Util-Vixi!-Sou-Scrum-Master/" class="md-tabs__link">
+          Uteis
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../Util-Resumo-Labs/" class="md-tabs__link md-tabs__link--active">
+          Labs
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../Util-Resumo-Projetos/" class="md-tabs__link">
+          Projetos
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../Util-Aulas/" class="md-tabs__link">
+          Aulas
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="Elementos de Sistemas - Z01" class="md-nav__button md-logo">
+      
+        <i class="md-icon">developer_board</i>
+      
+    </a>
+    Elementos de Sistemas - Z01
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/insper/Z01.1/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Insper/Z01.1
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+    
+    <label class="md-nav__link" for="nav-1">
+      Home
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        Home
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Bem vindo disciplina de Elementos de Sistemas!" class="md-nav__link">
+      Bem vindo disciplina de Elementos de Sistemas!
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Sobre-Criterios-de-Avaliacao/" title="Critérios de Avaliação" class="md-nav__link">
+      Critérios de Avaliação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Sobre-Rubricas/" title="Rubricas Projetos" class="md-nav__link">
+      Rubricas Projetos
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Uteis
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Uteis
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-Vixi!-Sou-Scrum-Master/" title="Vixi! Sou Scrum Master" class="md-nav__link">
+      Vixi! Sou Scrum Master
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-Dicas-GIT/" title="Dicas git" class="md-nav__link">
+      Dicas git
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-Video-Aulas/" title="Vídeo Aulas" class="md-nav__link">
+      Vídeo Aulas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-4" type="checkbox" id="nav-2-4">
+    
+    <label class="md-nav__link" for="nav-2-4">
+      Infra
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-4">
+        Infra
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-Infraestrutura/" title="Infraestrutura" class="md-nav__link">
+      Infraestrutura
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-5" type="checkbox" id="nav-2-5">
+    
+    <label class="md-nav__link" for="nav-2-5">
+      ZO1.1
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-5">
+        ZO1.1
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-Z01.1-Cheat-Sheet/" title="Z01.1 Cheat Sheet" class="md-nav__link">
+      Z01.1 Cheat Sheet
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-InstructionSet/" title="Instruction Set" class="md-nav__link">
+      Instruction Set
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-Resumo-Assembly/" title="Resumo Assembly" class="md-nav__link">
+      Resumo Assembly
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-Resumo-VM/" title="Resumo VM" class="md-nav__link">
+      Resumo VM
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Labs
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Labs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-Resumo-Labs/" title="Resumo" class="md-nav__link">
+      Resumo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../I-VM-Lab-1/" title="16: I VM Lab 1" class="md-nav__link">
+      16: I VM Lab 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
+    
+    <label class="md-nav__link" for="nav-3-3">
+      15: H Assembler Lab 1
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-3">
+        15: H Assembler Lab 1
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../H-Assembler-Lab-1/" title="H Assembler Lab 1" class="md-nav__link">
+      H Assembler Lab 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../H-Assembler-Lab-1-[parte-1]/" title="Parte 1" class="md-nav__link">
+      Parte 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../H-Assembler-Lab-1-[parte-2]/" title="Parte 2" class="md-nav__link">
+      Parte 2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../H-Assembler-Lab-1-[parte-3]/" title="Parte 3" class="md-nav__link">
+      Parte 3
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../H-Assembler-Lab-1-[parte-4]/" title="Parte 4" class="md-nav__link">
+      Parte 4
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../H-Assembler-Lab-1-[parte-5]/" title="Parte 5" class="md-nav__link">
+      Parte 5
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../G-CPU-Lab-1.pdf" title="14: G CPU Lab 1" class="md-nav__link">
+      14: G CPU Lab 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../F-Assembly-Lab-3/" title="13: F Assembly Lab 3" class="md-nav__link">
+      13: F Assembly Lab 3
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../F-Assembly-Lab-2/" title="12: F Assembly Lab 2" class="md-nav__link">
+      12: F Assembly Lab 2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../F-Assembly-Lab-1/" title="11: F Assembly Lab 1" class="md-nav__link">
+      11: F Assembly Lab 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../E-Sequencial-Lab-1/" title="10: E Sequencial Lab 1" class="md-nav__link">
+      10: E Sequencial Lab 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="9 : D ULA Lab 1" class="md-nav__link md-nav__link--active">
+      9 : D ULA Lab 1
+    </a>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../D-ULA-Lab-2/" title="8 : D ULA Lab 2" class="md-nav__link">
+      8 : D ULA Lab 2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../C-Logica-Combinacional-Lab-3/" title="6 : C Logica Comb. Lab 3" class="md-nav__link">
+      6 : C Logica Comb. Lab 3
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../C-Logica-Combinacional-Lab-2/" title="7 : C Logica Comb. Lab 2" class="md-nav__link">
+      7 : C Logica Comb. Lab 2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../C-Logica-Combinacional-Lab-1/" title="5 : C Logica Comb. Lab 1" class="md-nav__link">
+      5 : C Logica Comb. Lab 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../B-Circuitos-Integrados-Lab-2/" title="4 : B CI Lab 1" class="md-nav__link">
+      4 : B CI Lab 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../B-Circuitos-Integrados-Lab-1/" title="3 : B CI Lab 2" class="md-nav__link">
+      3 : B CI Lab 2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../A-Transistores-Lab-1/" title="2 : A Transistores Lab 1" class="md-nav__link">
+      2 : A Transistores Lab 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../A-Transistores-Lab-2/" title="1 : A Transistores Lab 2" class="md-nav__link">
+      1 : A Transistores Lab 2
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Projetos
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Projetos
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-Resumo-Projetos/" title="Resumo" class="md-nav__link">
+      Resumo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../X-Processadores-Projeto/" title="X - Mundo real" class="md-nav__link">
+      X - Mundo real
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3">
+    
+    <label class="md-nav__link" for="nav-4-3">
+      I - VM
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-3">
+        I - VM
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../I-VM-Projeto/" title="Projeto" class="md-nav__link">
+      Projeto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-Resumo-VM/" title="VM Linguagem" class="md-nav__link">
+      VM Linguagem
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../I-VM-Ferramental-Memoria/" title="VM Memória" class="md-nav__link">
+      VM Memória
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-4" type="checkbox" id="nav-4-4">
+    
+    <label class="md-nav__link" for="nav-4-4">
+      H - Assembler
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-4">
+        H - Assembler
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../H-Assembler-Projeto/" title="Projeto" class="md-nav__link">
+      Projeto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../H-Assembler-Prerequisitos/" title="Prerequisitos" class="md-nav__link">
+      Prerequisitos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../H-Assembler-Testando/" title="Testando" class="md-nav__link">
+      Testando
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../H-Assembler-Dicas-SymbolTable/" title="Dicas SymbolTable" class="md-nav__link">
+      Dicas SymbolTable
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../H-Assembler-Dicas-Macro/" title="Dicas Macro" class="md-nav__link">
+      Dicas Macro
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-5" type="checkbox" id="nav-4-5">
+    
+    <label class="md-nav__link" for="nav-4-5">
+      G - CPU
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-5">
+        G - CPU
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../G-CPU-Projeto/" title="CPU Projeto" class="md-nav__link">
+      CPU Projeto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../G-CPU-Testando/" title="Dicas testando" class="md-nav__link">
+      Dicas testando
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../G-CPU-Dicas-Conceito-B-e-A/" title="Dicas rubrica B" class="md-nav__link">
+      Dicas rubrica B
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-6" type="checkbox" id="nav-4-6">
+    
+    <label class="md-nav__link" for="nav-4-6">
+      F - Assembly
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-6">
+        F - Assembly
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../F-Assembly-Projeto/" title="Projeto" class="md-nav__link">
+      Projeto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../F-Assembly-Dicas/" title="Dicas" class="md-nav__link">
+      Dicas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-Resumo-Assembly/" title="Resumo Assembly" class="md-nav__link">
+      Resumo Assembly
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-7" type="checkbox" id="nav-4-7">
+    
+    <label class="md-nav__link" for="nav-4-7">
+      E - Lógica Sequencial
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-7">
+        E - Lógica Sequencial
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../E-Sequencial-Projeto/" title="Projeto" class="md-nav__link">
+      Projeto
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-8" type="checkbox" id="nav-4-8">
+    
+    <label class="md-nav__link" for="nav-4-8">
+      D - ULA
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-8">
+        D - ULA
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../D-ULA-Projeto/" title="Projeto" class="md-nav__link">
+      Projeto
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-9" type="checkbox" id="nav-4-9">
+    
+    <label class="md-nav__link" for="nav-4-9">
+      C - Lógica Combinacional
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-9">
+        C - Lógica Combinacional
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../C-Logica-Combinacional-Projeto/" title="Projeto" class="md-nav__link">
+      Projeto
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../B-Circuitos-Integrados-Projeto/" title="B - Circuitos Integrados" class="md-nav__link">
+      B - Circuitos Integrados
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../A-Transistores-Projeto/" title="A - Transistores" class="md-nav__link">
+      A - Transistores
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Aulas
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Aulas
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-Aulas/" title="Aulas" class="md-nav__link">
+      Aulas
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/Insper/Z01.1/edit/master/docs-src/D-ULA-Lab-1.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <div class="codehilite"><pre><span></span><span class="gi">+ Realizar em grupo (projetar)</span>
+</pre></div>
+
+<p>Iremos nesse laboratório editar a configuração do <code>Travis</code> para tevstar um novo projeto em seguida iremos explorar como os testes dos módulos em VHDL são realizados (testbench).</p>
+<ol>
+<li>Configurando Travis</li>
+<li>Implementando <code>halfAdder</code></li>
+<li>Visualizando teste</li>
+<li>Aprimorando teste <code>halfAdder</code></li>
+</ol>
+<h1 id="1-configurando-travis">1. Configurando Travis<a class="headerlink" href="#1-configurando-travis" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p><strong>Facilitador (chapéu) deve realizar porém todos devem acompanhar</strong>. Usar o monitor!</p>
+</blockquote>
+<p>Até agora vocês utilizaram o Travis de maneira transparente, sem entender muito como ele foi configurado. Nessa nova etapa do desenvolvimento do computador <code>Z01</code> iremos modificar o arquivo de configuração do Travis para que ele posso executar os novos scripts de teste (testar o desenvolvimento da ULA).</p>
+<p>Note que no diretório raiz do repositório Z01.1 temos um arquivo <strong>oculto</strong> chamado <code>.travis.yml</code> (usuários LINUX esse arquivo estará oculto. Para exibir no gerenciador de arquivos <code>ctrl</code> + <code>h</code>, ou <code>ls -a</code> no terminal), esse arquivo faz toda a configuração do teste de integração contínua e é dividido em algumas partes:</p>
+<ol>
+<li>Configuração da máquina virtual<ul>
+<li>ubuntu 16.04</li>
+</ul>
+</li>
+<li>Instalação das dependências:<ul>
+<li>python</li>
+<li>quartus (no Travis instalamos somente o modelsim)</li>
+<li>java</li>
+</ul>
+</li>
+<li>Execução dos scripts de teste</li>
+</ol>
+<p>Nessa etapa estamos interessados em adicionar mais um script de teste ao Travis (o script que testa a ULA, <code>testeULA.py</code>). Para isso abra o arquivo <code>.travis.yml</code> e na secção referente aos scripts, adicione a linha como demonstrado a seguir:</p>
+<div class="codehilite"><pre><span></span>script:
+ - python Projetos/C-LogicaCombinacional/testeLogicaCombinacional.py
+<span class="gi">+- python Projetos/D-UnidadeLogicaAritmetica/testeULA.py</span>
+</pre></div>
+
+<p>Agora, toda vez que o repositório remoto (<code>origin</code>) sofrer alguma variação, o Travis irá executar os dois scripts de teste (projeto C e projeto D).</p>
+<div class="codehilite"><pre><span></span><span class="gd">- Salve e submeta as alterações</span>
+</pre></div>
+
+<ol>
+<li>no master ('git checkout master')</li>
+<li>faça um commit com essa alteração ('git add .travis.yml' + 'git commit -m "adicionado teste D"')</li>
+<li>faça o push ('git push origin master')</li>
+</ol>
+<h1 id="2-implementando-o-half-adder">2. Implementando o half-adder<a class="headerlink" href="#2-implementando-o-half-adder" title="Permanent link">&para;</a></h1>
+<p>O half-adder é um dispositivo somador binário que possui duas entradas binárias (a,b) e duas saídas binária (soma dos bits (Soma) e o carry (vaium)). A tabela verdade desse componente é detalhada a seguir:</p>
+<table>
+<thead>
+<tr>
+<th>a</th>
+<th>b</th>
+<th>Soma</th>
+<th>Vaium</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>Com a tabela verdade podemos extrair as duas equações que descreve esse componente: Soma e Vaium.</p>
+<ul>
+<li><code>soma = a xor b</code></li>
+<li><code>vaium = a and b</code></li>
+</ul>
+<blockquote>
+<p>Lembre que: not(a) b + a not(b) = a xor b</p>
+</blockquote>
+<ol>
+<li>
+<p>Agora com a equação definida é possível realizarmos uma descrição em <code>VHDL</code> do componente <code>halfadder</code>. Abra o arquivo  <code>D-UnidadeLogicaAritmetica/src/rtl/HalfAdder.vhd</code> e modifique sua arquitetura para implementar a equação do halfadder. </p>
+</li>
+<li>
+<p>Edite o arquivo de configuração do teste <code>tests/config.txt</code> e descomente a linha referente ao <code>halfadder</code>.</p>
+</li>
+<li>
+<p>Valide a implementação executando o script de testes: <code>testeULA.py</code></p>
+</li>
+</ol>
+<h1 id="3-visualizando-a-simulacao">3. Visualizando a simulação<a class="headerlink" href="#3-visualizando-a-simulacao" title="Permanent link">&para;</a></h1>
+<p>É muito difícil sabermos porque uma implementação em VHDL não funciona, atualmente o fluxo é: transcreve para VHDL o componente; testa; não funcionou volta para o VHDL; testa.... Será que não existe uma forma de conseguirmos visualizar o resultado do teste e com isso mudarmos a implementação em VDHL? Sim existe! Para isso será necessário invocarmos a parte gráfica do modelsim. 
+Na hora de invocarmos o script de teste (<code>D-UnidadeLogicaAritmetica/testeULA.py</code>) passe o parâmetro <code>--gui</code> (ou <code>-g</code>), como a seguir:</p>
+<div class="codehilite"><pre><span></span>$ python testeULA.py --gui
+</pre></div>
+
+<p>Esse comando irá executar a simulação e abrir no software <code>modelsim</code> (toda a simulação é realizada por esse software, mas estava sendo 'mascarada' pelos scripts de teste em py).</p>
+<blockquote>
+<p>Antes de continuar, o módulo do <code>HalfAdder.vhd</code> já deve está implementando e testado (na forma tradicional).</p>
+</blockquote>
+<h2 id="modelsim">modelsim<a class="headerlink" href="#modelsim" title="Permanent link">&para;</a></h2>
+<p>O <a href="https://www.mentor.com/company/higher_ed/modelsim-student-edition">modelsim</a> não possui uma interface moderna, porém é o software de simulação de hardware mais completo e mais utilizado pela industria. Siga os passos a seguir para conseguirmos visualizarmos a forma de onda:</p>
+<p><img alt="ModelSim" src="../figs/D-ULA/D-modelsim1a.png" /></p>
+<p>Primeiramente devemos adicionar os sinais que desejamos visualizar, no caso do HalfAdder queremos ver suas entradas (a,b) e suas saídas (soma, vaium).</p>
+<p>Para isso clique em <strong>wave</strong>:</p>
+<p><img alt="ModelSim" src="../figs/D-ULA/D-modelsim2.png" /></p>
+<p>E depois selecione no menu das instâncias o módulo u1HalfAdder, com isso poderemos selecionar quais pinos/ sinais gostaríamos de visualizar desse bloco. Arraste todos os sinais para o wave form :</p>
+<p><img alt="ModelSim" src="../figs/D-ULA/D-modelsim3.png" /></p>
+<p>Resultando em:</p>
+<p><img alt="ModelSim" src="../figs/D-ULA/D-modelsim4.png" /></p>
+<p>Agora podemos executar a simulação, na região do script TCL execute o seguinte comando: <strong>vunit_run</strong></p>
+<div class="codehilite"><pre><span></span><span class="nv">VSIM</span> <span class="mi">7</span><span class="o">&gt;</span> vunit_run
+</pre></div>
+
+<p>Podemos agora visualizar a forma de onda:</p>
+<p><img alt="ModelSim" src="../figs/D-ULA/D-modelsim5.png" /></p>
+<h1 id="4-aprimorando-teste">4. Aprimorando teste<a class="headerlink" href="#4-aprimorando-teste" title="Permanent link">&para;</a></h1>
+<p>Testbench (bancada de teste) é a forma utilizada para verificarmos se um projeto de HDL (VHDL, Verilog, ...) está certo, o testbench pode ser escrito em várias linguagens inclusive em VHDL.</p>
+<p>Os TestBenchs estão localizados nas pastas dos projetos em: <code>/tests/tst/</code>.</p>
+<p>No projeto D temos os seguintes testbenchs definidos (um para cada módulo a ser implementando):</p>
+<div class="codehilite"><pre><span></span>/tests/tst/
+          tb_Add16.vhd
+          tb_ALU.vhd
+          tb_comparador16.vhd
+          tb_FullAdder.vhd
+          tb_HalfAdder.vhd
+          tb_Inc16.vhd
+          tb_inversor16.vhd
+          tb_zerador16.vhd
+</pre></div>
+
+<blockquote>
+<p>Nesse projeto os testes não estão completos, será necessário implementar o resto dos testes.</p>
+</blockquote>
+<h2 id="tb_halfaddervhd">tb_HalfAdder.vhd<a class="headerlink" href="#tb_halfaddervhd" title="Permanent link">&para;</a></h2>
+<p>Note que na simulação do HalfAdder não testamos um dos casos de entrada: <strong>1 + 1</strong>, esse teste está incompleto. Vamos corrigir isso!</p>
+<p>O arquivo <code>tb_HalfAdder</code> faz a inclusão do módulo HalfAdder (component e port map) instanciando esse módulo para uso. No arquivo é criado <strong>estímulos</strong> na entrada do componente e verifica-se se a saída está de acordo com o que deveria ser feito.</p>
+<h3 id="modificando-o-arquivo">modificando o arquivo<a class="headerlink" href="#modificando-o-arquivo" title="Permanent link">&para;</a></h3>
+<p>Agora vamos modificar o arquivo para inserir o teste que está faltando: <code>1+1</code>, para isso inclua as linhas a seguir logo após o teste 3:</p>
+<div class="codehilite"><pre><span></span> -- Teste: 4
+ -- 1 + 1
+<span class="gi">+inA &lt;= &#39;1&#39;; inB&lt;= &#39;1&#39;;</span>
+<span class="gi">+wait for 200 ps;</span>
+<span class="gi">+assert(soma = &#39;0&#39; and vaium = &#39;1&#39;)  report &quot;Falha em teste: 4&quot; severity error;</span>
+</pre></div>
+
+<p>Como isso funciona? Primeiro colocamos os valores desejados na entrada do componente:</p>
+<div class="codehilite"><pre><span></span>inA &lt;= &#39;1&#39;; inB &lt;= &#39;1&#39;;
+</pre></div>
+
+<p>é necessário aguardar um instante de tempo para que as portas lógicas fiquem com a saída estável (e para possibilitar a visualização na simulação):</p>
+<div class="codehilite"><pre><span></span>wait for 200 ps;
+</pre></div>
+
+<h3 id="testando-novamente">Testando novamente<a class="headerlink" href="#testando-novamente" title="Permanent link">&para;</a></h3>
+<p>Execute novamente a simulação com o modo <code>--gui</code> e verifique se o módulo está se comportando corretamente:<code>soma = 0</code> e <code>vaium = 1</code>.</p>
+<div class="codehilite"><pre><span></span><span class="gd">- Salve e submeta as alterações</span>
+</pre></div>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../E-Sequencial-Lab-1/" title="10: E Sequencial Lab 1" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                10: E Sequencial Lab 1
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../D-ULA-Lab-2/" title="8 : D ULA Lab 2" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                8 : D ULA Lab 2
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; Rafael Corsi @ insper
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.1f8d785c.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>

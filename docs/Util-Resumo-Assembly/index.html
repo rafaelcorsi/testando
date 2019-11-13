@@ -1,0 +1,2307 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.3">
+    
+    
+      
+        <title>Resumo Assembly - Elementos de Sistemas - Z01</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.96cc8824.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.268332fc.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="white" data-md-color-accent="pink">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#notacao" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="Elementos de Sistemas - Z01" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon">developer_board</i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Elementos de Sistemas - Z01
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Resumo Assembly
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/insper/Z01.1/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Insper/Z01.1
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href=".." class="md-tabs__link">
+          Home
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../Util-Vixi!-Sou-Scrum-Master/" class="md-tabs__link">
+          Uteis
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../Util-Resumo-Labs/" class="md-tabs__link">
+          Labs
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../Util-Resumo-Projetos/" class="md-tabs__link md-tabs__link--active">
+          Projetos
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../Util-Aulas/" class="md-tabs__link">
+          Aulas
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="Elementos de Sistemas - Z01" class="md-nav__button md-logo">
+      
+        <i class="md-icon">developer_board</i>
+      
+    </a>
+    Elementos de Sistemas - Z01
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/insper/Z01.1/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Insper/Z01.1
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+    
+    <label class="md-nav__link" for="nav-1">
+      Home
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        Home
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Bem vindo disciplina de Elementos de Sistemas!" class="md-nav__link">
+      Bem vindo disciplina de Elementos de Sistemas!
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Sobre-Criterios-de-Avaliacao/" title="Critérios de Avaliação" class="md-nav__link">
+      Critérios de Avaliação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Sobre-Rubricas/" title="Rubricas Projetos" class="md-nav__link">
+      Rubricas Projetos
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Uteis
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Uteis
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-Vixi!-Sou-Scrum-Master/" title="Vixi! Sou Scrum Master" class="md-nav__link">
+      Vixi! Sou Scrum Master
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-Dicas-GIT/" title="Dicas git" class="md-nav__link">
+      Dicas git
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-Video-Aulas/" title="Vídeo Aulas" class="md-nav__link">
+      Vídeo Aulas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-4" type="checkbox" id="nav-2-4">
+    
+    <label class="md-nav__link" for="nav-2-4">
+      Infra
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-4">
+        Infra
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-Infraestrutura/" title="Infraestrutura" class="md-nav__link">
+      Infraestrutura
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-5" type="checkbox" id="nav-2-5">
+    
+    <label class="md-nav__link" for="nav-2-5">
+      ZO1.1
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-5">
+        ZO1.1
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-Z01.1-Cheat-Sheet/" title="Z01.1 Cheat Sheet" class="md-nav__link">
+      Z01.1 Cheat Sheet
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-InstructionSet/" title="Instruction Set" class="md-nav__link">
+      Instruction Set
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Resumo Assembly
+      </label>
+    
+    <a href="./" title="Resumo Assembly" class="md-nav__link md-nav__link--active">
+      Resumo Assembly
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#notacao" class="md-nav__link">
+    Notação
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instrucoes" class="md-nav__link">
+    Instruções
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lea-carregamento-efetivo-do-endereco-valor" class="md-nav__link">
+    LEA - Carregamento Efetivo do Endereço (Valor)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mov-copia-valores" class="md-nav__link">
+    MOV - Copia Valores
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-adicao-de-inteiros" class="md-nav__link">
+    ADD - Adição de Inteiros
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sub-subtracao-de-inteiros" class="md-nav__link">
+    SUB - Subtração de Inteiros
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rsub-subtracao-de-inteiros-reversa" class="md-nav__link">
+    RSUB - Subtração de Inteiros Reversa
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inc-incrementa-inteiro" class="md-nav__link">
+    INC - Incrementa Inteiro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dec-decrementa-inteiro" class="md-nav__link">
+    DEC - Decrementa Inteiro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#not-negacao-por-complemento-de-um" class="md-nav__link">
+    NOT - Negação por Complemento de Um
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#neg-negacao-por-complemento-de-dois" class="md-nav__link">
+    NEG - Negação por Complemento de dois
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#and-operador-e-and" class="md-nav__link">
+    AND - Operador E (and)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#or-operador-ou-or" class="md-nav__link">
+    OR - Operador OU (or)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jmp-jump" class="md-nav__link">
+    JMP - Jump
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#je-desvia-execucao-se-igual-a-zero" class="md-nav__link">
+    JE - Desvia Execução se Igual a Zero
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jne-desvia-execucao-se-diferente-de-zero" class="md-nav__link">
+    JNE - Desvia Execução se Diferente de Zero
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jg-desvia-execucao-se-maior-que-zero" class="md-nav__link">
+    JG - Desvia Execução se Maior que Zero
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jge-desvia-execucao-se-maior-igual-a-zero" class="md-nav__link">
+    JGE - Desvia Execução se Maior Igual a Zero
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jl-desvia-execucao-se-menor-que-zero" class="md-nav__link">
+    JL - Desvia Execução se Menor que Zero
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jle-desvia-execucao-se-menor-igual-a-zero" class="md-nav__link">
+    JLE - Desvia Execução se Menor Igual a Zero
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nop-nao-faz-nada-no-operation" class="md-nav__link">
+    NOP - Não faz nada (No Operation)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#descricao-detalhada" class="md-nav__link">
+    Descrição Detalhada
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-Resumo-VM/" title="Resumo VM" class="md-nav__link">
+      Resumo VM
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Labs
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Labs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-Resumo-Labs/" title="Resumo" class="md-nav__link">
+      Resumo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../I-VM-Lab-1/" title="16: I VM Lab 1" class="md-nav__link">
+      16: I VM Lab 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
+    
+    <label class="md-nav__link" for="nav-3-3">
+      15: H Assembler Lab 1
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-3">
+        15: H Assembler Lab 1
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../H-Assembler-Lab-1/" title="H Assembler Lab 1" class="md-nav__link">
+      H Assembler Lab 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../H-Assembler-Lab-1-[parte-1]/" title="Parte 1" class="md-nav__link">
+      Parte 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../H-Assembler-Lab-1-[parte-2]/" title="Parte 2" class="md-nav__link">
+      Parte 2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../H-Assembler-Lab-1-[parte-3]/" title="Parte 3" class="md-nav__link">
+      Parte 3
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../H-Assembler-Lab-1-[parte-4]/" title="Parte 4" class="md-nav__link">
+      Parte 4
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../H-Assembler-Lab-1-[parte-5]/" title="Parte 5" class="md-nav__link">
+      Parte 5
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../G-CPU-Lab-1.pdf" title="14: G CPU Lab 1" class="md-nav__link">
+      14: G CPU Lab 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../F-Assembly-Lab-3/" title="13: F Assembly Lab 3" class="md-nav__link">
+      13: F Assembly Lab 3
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../F-Assembly-Lab-2/" title="12: F Assembly Lab 2" class="md-nav__link">
+      12: F Assembly Lab 2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../F-Assembly-Lab-1/" title="11: F Assembly Lab 1" class="md-nav__link">
+      11: F Assembly Lab 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../E-Sequencial-Lab-1/" title="10: E Sequencial Lab 1" class="md-nav__link">
+      10: E Sequencial Lab 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../D-ULA-Lab-1/" title="9 : D ULA Lab 1" class="md-nav__link">
+      9 : D ULA Lab 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../D-ULA-Lab-2/" title="8 : D ULA Lab 2" class="md-nav__link">
+      8 : D ULA Lab 2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../C-Logica-Combinacional-Lab-3/" title="6 : C Logica Comb. Lab 3" class="md-nav__link">
+      6 : C Logica Comb. Lab 3
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../C-Logica-Combinacional-Lab-2/" title="7 : C Logica Comb. Lab 2" class="md-nav__link">
+      7 : C Logica Comb. Lab 2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../C-Logica-Combinacional-Lab-1/" title="5 : C Logica Comb. Lab 1" class="md-nav__link">
+      5 : C Logica Comb. Lab 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../B-Circuitos-Integrados-Lab-2/" title="4 : B CI Lab 1" class="md-nav__link">
+      4 : B CI Lab 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../B-Circuitos-Integrados-Lab-1/" title="3 : B CI Lab 2" class="md-nav__link">
+      3 : B CI Lab 2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../A-Transistores-Lab-1/" title="2 : A Transistores Lab 1" class="md-nav__link">
+      2 : A Transistores Lab 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../A-Transistores-Lab-2/" title="1 : A Transistores Lab 2" class="md-nav__link">
+      1 : A Transistores Lab 2
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      Projetos
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Projetos
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-Resumo-Projetos/" title="Resumo" class="md-nav__link">
+      Resumo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../X-Processadores-Projeto/" title="X - Mundo real" class="md-nav__link">
+      X - Mundo real
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3">
+    
+    <label class="md-nav__link" for="nav-4-3">
+      I - VM
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-3">
+        I - VM
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../I-VM-Projeto/" title="Projeto" class="md-nav__link">
+      Projeto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-Resumo-VM/" title="VM Linguagem" class="md-nav__link">
+      VM Linguagem
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../I-VM-Ferramental-Memoria/" title="VM Memória" class="md-nav__link">
+      VM Memória
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-4" type="checkbox" id="nav-4-4">
+    
+    <label class="md-nav__link" for="nav-4-4">
+      H - Assembler
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-4">
+        H - Assembler
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../H-Assembler-Projeto/" title="Projeto" class="md-nav__link">
+      Projeto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../H-Assembler-Prerequisitos/" title="Prerequisitos" class="md-nav__link">
+      Prerequisitos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../H-Assembler-Testando/" title="Testando" class="md-nav__link">
+      Testando
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../H-Assembler-Dicas-SymbolTable/" title="Dicas SymbolTable" class="md-nav__link">
+      Dicas SymbolTable
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../H-Assembler-Dicas-Macro/" title="Dicas Macro" class="md-nav__link">
+      Dicas Macro
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-5" type="checkbox" id="nav-4-5">
+    
+    <label class="md-nav__link" for="nav-4-5">
+      G - CPU
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-5">
+        G - CPU
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../G-CPU-Projeto/" title="CPU Projeto" class="md-nav__link">
+      CPU Projeto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../G-CPU-Testando/" title="Dicas testando" class="md-nav__link">
+      Dicas testando
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../G-CPU-Dicas-Conceito-B-e-A/" title="Dicas rubrica B" class="md-nav__link">
+      Dicas rubrica B
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-6" type="checkbox" id="nav-4-6" checked>
+    
+    <label class="md-nav__link" for="nav-4-6">
+      F - Assembly
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-6">
+        F - Assembly
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../F-Assembly-Projeto/" title="Projeto" class="md-nav__link">
+      Projeto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../F-Assembly-Dicas/" title="Dicas" class="md-nav__link">
+      Dicas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Resumo Assembly
+      </label>
+    
+    <a href="./" title="Resumo Assembly" class="md-nav__link md-nav__link--active">
+      Resumo Assembly
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#notacao" class="md-nav__link">
+    Notação
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instrucoes" class="md-nav__link">
+    Instruções
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lea-carregamento-efetivo-do-endereco-valor" class="md-nav__link">
+    LEA - Carregamento Efetivo do Endereço (Valor)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mov-copia-valores" class="md-nav__link">
+    MOV - Copia Valores
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-adicao-de-inteiros" class="md-nav__link">
+    ADD - Adição de Inteiros
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sub-subtracao-de-inteiros" class="md-nav__link">
+    SUB - Subtração de Inteiros
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rsub-subtracao-de-inteiros-reversa" class="md-nav__link">
+    RSUB - Subtração de Inteiros Reversa
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inc-incrementa-inteiro" class="md-nav__link">
+    INC - Incrementa Inteiro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dec-decrementa-inteiro" class="md-nav__link">
+    DEC - Decrementa Inteiro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#not-negacao-por-complemento-de-um" class="md-nav__link">
+    NOT - Negação por Complemento de Um
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#neg-negacao-por-complemento-de-dois" class="md-nav__link">
+    NEG - Negação por Complemento de dois
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#and-operador-e-and" class="md-nav__link">
+    AND - Operador E (and)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#or-operador-ou-or" class="md-nav__link">
+    OR - Operador OU (or)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jmp-jump" class="md-nav__link">
+    JMP - Jump
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#je-desvia-execucao-se-igual-a-zero" class="md-nav__link">
+    JE - Desvia Execução se Igual a Zero
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jne-desvia-execucao-se-diferente-de-zero" class="md-nav__link">
+    JNE - Desvia Execução se Diferente de Zero
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jg-desvia-execucao-se-maior-que-zero" class="md-nav__link">
+    JG - Desvia Execução se Maior que Zero
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jge-desvia-execucao-se-maior-igual-a-zero" class="md-nav__link">
+    JGE - Desvia Execução se Maior Igual a Zero
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jl-desvia-execucao-se-menor-que-zero" class="md-nav__link">
+    JL - Desvia Execução se Menor que Zero
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jle-desvia-execucao-se-menor-igual-a-zero" class="md-nav__link">
+    JLE - Desvia Execução se Menor Igual a Zero
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nop-nao-faz-nada-no-operation" class="md-nav__link">
+    NOP - Não faz nada (No Operation)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#descricao-detalhada" class="md-nav__link">
+    Descrição Detalhada
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-7" type="checkbox" id="nav-4-7">
+    
+    <label class="md-nav__link" for="nav-4-7">
+      E - Lógica Sequencial
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-7">
+        E - Lógica Sequencial
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../E-Sequencial-Projeto/" title="Projeto" class="md-nav__link">
+      Projeto
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-8" type="checkbox" id="nav-4-8">
+    
+    <label class="md-nav__link" for="nav-4-8">
+      D - ULA
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-8">
+        D - ULA
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../D-ULA-Projeto/" title="Projeto" class="md-nav__link">
+      Projeto
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-9" type="checkbox" id="nav-4-9">
+    
+    <label class="md-nav__link" for="nav-4-9">
+      C - Lógica Combinacional
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-9">
+        C - Lógica Combinacional
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../C-Logica-Combinacional-Projeto/" title="Projeto" class="md-nav__link">
+      Projeto
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../B-Circuitos-Integrados-Projeto/" title="B - Circuitos Integrados" class="md-nav__link">
+      B - Circuitos Integrados
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../A-Transistores-Projeto/" title="A - Transistores" class="md-nav__link">
+      A - Transistores
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Aulas
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Aulas
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Util-Aulas/" title="Aulas" class="md-nav__link">
+      Aulas
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#notacao" class="md-nav__link">
+    Notação
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instrucoes" class="md-nav__link">
+    Instruções
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lea-carregamento-efetivo-do-endereco-valor" class="md-nav__link">
+    LEA - Carregamento Efetivo do Endereço (Valor)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mov-copia-valores" class="md-nav__link">
+    MOV - Copia Valores
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-adicao-de-inteiros" class="md-nav__link">
+    ADD - Adição de Inteiros
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sub-subtracao-de-inteiros" class="md-nav__link">
+    SUB - Subtração de Inteiros
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rsub-subtracao-de-inteiros-reversa" class="md-nav__link">
+    RSUB - Subtração de Inteiros Reversa
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inc-incrementa-inteiro" class="md-nav__link">
+    INC - Incrementa Inteiro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dec-decrementa-inteiro" class="md-nav__link">
+    DEC - Decrementa Inteiro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#not-negacao-por-complemento-de-um" class="md-nav__link">
+    NOT - Negação por Complemento de Um
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#neg-negacao-por-complemento-de-dois" class="md-nav__link">
+    NEG - Negação por Complemento de dois
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#and-operador-e-and" class="md-nav__link">
+    AND - Operador E (and)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#or-operador-ou-or" class="md-nav__link">
+    OR - Operador OU (or)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jmp-jump" class="md-nav__link">
+    JMP - Jump
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#je-desvia-execucao-se-igual-a-zero" class="md-nav__link">
+    JE - Desvia Execução se Igual a Zero
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jne-desvia-execucao-se-diferente-de-zero" class="md-nav__link">
+    JNE - Desvia Execução se Diferente de Zero
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jg-desvia-execucao-se-maior-que-zero" class="md-nav__link">
+    JG - Desvia Execução se Maior que Zero
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jge-desvia-execucao-se-maior-igual-a-zero" class="md-nav__link">
+    JGE - Desvia Execução se Maior Igual a Zero
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jl-desvia-execucao-se-menor-que-zero" class="md-nav__link">
+    JL - Desvia Execução se Menor que Zero
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jle-desvia-execucao-se-menor-igual-a-zero" class="md-nav__link">
+    JLE - Desvia Execução se Menor Igual a Zero
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nop-nao-faz-nada-no-operation" class="md-nav__link">
+    NOP - Não faz nada (No Operation)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#descricao-detalhada" class="md-nav__link">
+    Descrição Detalhada
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/Insper/Z01.1/edit/master/docs-src/Util-Resumo-Assembly.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                  <h1>Resumo Assembly</h1>
+                
+                <div class="admonition note">
+<p class="admonition-title">Tipo A</p>
+<ul>
+<li><a href="#lea---carregamento-efetivo-do-endereco-(valor)">LEA  - Carregamento Efetivo do Endereço</a></li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Tipo C</p>
+<ul>
+<li><a href="#mov---copia-valores">MOV  - Copia Valores</a></li>
+<li><a href="#add---adição-de-inteiros">ADD  - Adição de Inteiros</a></li>
+<li><a href="#sub---subtração-de-inteiros">SUB  - Subtração de Inteiros</a></li>
+<li><a href="#rsub---subtração-de-inteiros-reversa">RSUB - Subtração de Inteiros Reversa</a></li>
+<li><a href="#inc---incrementa-inteiro">INC  - Incrementa Inteiro</a></li>
+<li><a href="#dec---decrementa-inteiro">DEC  - Decrementa Inteiro</a></li>
+<li><a href="#not----negação-por-complemento-de-um">NOT  - Negação por Complemento de Um</a></li>
+<li><a href="#neg----negação-por-complemento-de-dois">NEG  - Negação por Complemento de dois</a></li>
+<li><a href="#and----operador-e-and">AND  - Operador E (and)</a></li>
+<li><a href="#or----operador-ou-or">OR   - Operador OU (or)</a></li>
+<li><a href="#jmp----jump">JMP  - Jump</a></li>
+<li><a href="#je----desvia-execução-se-igual-a-zero">JE   - Desvia Execução se Igual a Zero</a></li>
+<li><a href="#jne----desvia-execução-se-diferente-de-zero">JNE  - Desvia Execução se Diferente de Zero</a></li>
+<li><a href="#jg----desvia-execução-se-maior-que-zero">JG   - Desvia Execução se Maior que Zero</a></li>
+<li><a href="#jge----desvia-execução-se-maior-igual-a-zero">JGE  - Desvia Execução se Maior Igual a Zero</a></li>
+<li><a href="#jl----desvia-execução-se-menor-que-zero">JL   - Desvia Execução se Menor que Zero</a></li>
+<li><a href="#jle----desvia-execução-se-menor-igual-a-zero">JLE  - Desvia Execução se Menor Igual a Zero</a></li>
+<li><a href="#nop----não-faz-nada-no-operation">NOP  - Não faz nada (No Operation)</a></li>
+</ul>
+</div>
+<hr />
+<h2 id="notacao">Notação<a class="headerlink" href="#notacao" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>reg</strong> : Registrador (<code>%A</code>, <code>%D</code>, <code>%S</code>)</li>
+<li><strong>mem</strong> : Acesso a memória (%A)</li>
+<li><strong>im</strong>: Imediato, pode ser: (<code>$1</code>, <code>$0</code>, <code>$-1</code>)</li>
+<li><strong>const</strong>: Constante positiva (<code>$0</code>, <code>$9</code>, ....)</li>
+</ul>
+<h2 id="instrucoes">Instruções<a class="headerlink" href="#instrucoes" title="Permanent link">&para;</a></h2>
+<h4 id="lea-carregamento-efetivo-do-endereco-valor">LEA - Carregamento Efetivo do Endereço (Valor)<a class="headerlink" href="#lea-carregamento-efetivo-do-endereco-valor" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p><strong>leaw</strong> const, reg</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Restrição</p>
+<p>A operação de <strong>leaw</strong> só aceita o registrador <code>%A</code></p>
+</div>
+<p>A instrução <em>lea</em> armazena o valor passado (<code>const</code>) no
+registrador especificado </p>
+<div class="codehilite"><pre><span></span><span class="c1">; Exemplo: %A = 15</span>
+<span class="nf">leaw</span> <span class="kc">$</span><span class="mi">15</span><span class="p">,</span> <span class="o">%</span><span class="nv">A</span>
+</pre></div>
+
+<hr />
+<h4 id="mov-copia-valores">MOV - Copia Valores<a class="headerlink" href="#mov-copia-valores" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p><strong>movw</strong> im*/reg/mem, reg/mem {, reg/mem, reg/mem}</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Dica</p>
+<p>A operação de mov faz na verde uma cópia, deixando a origem com o 
+dado original.</p>
+</div>
+<p>A instrução <em>mov,</em> copia o valor da primeira posição para
+a segunda posição (terceira e quarta opcional).</p>
+<div class="codehilite"><pre><span></span><span class="c1">; Exemplo: S = RAM[A]</span>
+<span class="nf">movw</span> <span class="p">(</span><span class="o">%</span><span class="nv">A</span><span class="p">),</span> <span class="o">%</span><span class="nv">S</span>
+</pre></div>
+
+<hr />
+<h4 id="add-adicao-de-inteiros">ADD - Adição de Inteiros<a class="headerlink" href="#add-adicao-de-inteiros" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p><strong>addw</strong> reg/mem, reg/mem/im*, reg/mem {, reg/mem, reg/mem}</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Dica</p>
+<p>A operação permite salvar o resultado em mais de um destino.</p>
+</div>
+<p>instrução add, soma o primeiro valor ao segundo
+valor e armazena o resultado no terceiro parâmetro (quarto e quinto
+opcional).</p>
+<div class="codehilite"><pre><span></span><span class="c1">; Exemplo: S = RAM[A]+D </span>
+<span class="nf">addw</span> <span class="p">(</span><span class="o">%</span><span class="nv">A</span><span class="p">),</span> <span class="o">%</span><span class="nv">D</span><span class="p">,</span> <span class="o">%</span><span class="nv">S</span>
+</pre></div>
+
+<hr />
+<h4 id="sub-subtracao-de-inteiros">SUB - Subtração de Inteiros<a class="headerlink" href="#sub-subtracao-de-inteiros" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p><strong>subw</strong> reg/mem, rem/mem/im*, reg/mem {, reg/mem, reg/mem}</p>
+</div>
+<p>A instrução sub, subtrai o segundo valor do primeiro
+valor e armazena o resultado no terceiro parâmetro (quarto e quinto
+opcional).</p>
+<div class="codehilite"><pre><span></span><span class="c1">; Exemplo: A = D - RAM[A] </span>
+<span class="nf">subw</span> <span class="o">%</span><span class="nv">D</span><span class="p">,</span> <span class="p">(</span><span class="o">%</span><span class="nv">A</span><span class="p">),</span> <span class="o">%</span><span class="nv">A</span>
+</pre></div>
+
+<hr />
+<h4 id="rsub-subtracao-de-inteiros-reversa">RSUB - Subtração de Inteiros Reversa<a class="headerlink" href="#rsub-subtracao-de-inteiros-reversa" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p><strong>rsubw</strong> reg/mem/im*, rem/mem, reg/mem {, reg/mem, reg/mem}</p>
+</div>
+<p>A instrução rsub, subtrai o segundo valor do primeiro
+valor e armazena o resultado no terceiro parâmetro (quarto e quinto
+opcional).</p>
+<div class="codehilite"><pre><span></span><span class="c1">; Exemplo: A = RAM[A] - D</span>
+<span class="nf">rsubw</span> <span class="o">%</span><span class="nv">D</span><span class="p">,</span> <span class="p">(</span><span class="o">%</span><span class="nv">A</span><span class="p">),</span> <span class="o">%</span><span class="nv">A</span>
+</pre></div>
+
+<hr />
+<h4 id="inc-incrementa-inteiro">INC - Incrementa Inteiro<a class="headerlink" href="#inc-incrementa-inteiro" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p><strong>incw</strong> reg/mem</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Restrição</p>
+<p>O destino é o próprio registrador! A operação não permite
+salvar em um registrador diferente.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Dica</p>
+<p>Se quiser fazer a operação de <strong>inc</strong> e salvar em outro 
+registrador, pode utilizar a operação de <strong>addw</strong>:</p>
+<div class="codehilite"><pre><span></span><span class="c1">; D = A + 1</span>
+<span class="nf">addw</span> <span class="kc">$</span><span class="mi">1</span><span class="p">,</span> <span class="o">%</span><span class="nv">A</span><span class="p">,</span> <span class="o">%</span><span class="nv">D</span> 
+</pre></div>
+
+</div>
+<p>A instrução <em>inc,</em> adiciona um (1) ao valor do
+registrador ou memória.</p>
+<div class="codehilite"><pre><span></span><span class="c1">; Exemplo: D = D + 1</span>
+<span class="nf">incw</span> <span class="o">%</span><span class="nv">D</span>
+</pre></div>
+
+<hr />
+<h4 id="dec-decrementa-inteiro">DEC - Decrementa Inteiro<a class="headerlink" href="#dec-decrementa-inteiro" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p><strong>decw</strong> reg/mem</p>
+</div>
+<p>A instrução <em>dec,</em> subtrai um (1) do valor do registrador
+ou memória.</p>
+<div class="codehilite"><pre><span></span><span class="c1">; Exemplo: A = A-1</span>
+<span class="nf">decw</span> <span class="o">%</span><span class="nv">A</span>
+</pre></div>
+
+<hr />
+<h4 id="not-negacao-por-complemento-de-um">NOT - Negação por Complemento de Um<a class="headerlink" href="#not-negacao-por-complemento-de-um" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p><strong>notw</strong> reg</p>
+</div>
+<p>A instrução <em>not,</em> inverte o valor de cada bit do reg origem, ou seja,
+se um bit tem valor 0 fica com 1 e vice-versa.</p>
+<div class="codehilite"><pre><span></span><span class="c1">; Exemplo:  D = !D</span>
+<span class="nf">notw</span> <span class="o">%</span><span class="nv">D</span>
+</pre></div>
+
+<hr />
+<h4 id="neg-negacao-por-complemento-de-dois">NEG - Negação por Complemento de dois<a class="headerlink" href="#neg-negacao-por-complemento-de-dois" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p>negw reg/mem</p>
+</div>
+<p>A instrução <em>neg,</em> faz o valor ficar negativo, ou seja,
+um valor de x é modificado para -x.</p>
+<div class="codehilite"><pre><span></span><span class="c1">; Exemplo: A = -A</span>
+ <span class="nf">negw</span> <span class="o">%</span><span class="nv">A</span>
+</pre></div>
+
+<hr />
+<h4 id="and-operador-e-and">AND - Operador E (and)<a class="headerlink" href="#and-operador-e-and" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p>andw reg/mem, rem/mem</p>
+</div>
+<p>A instrução <em>and</em> executa o operador lógico E (and).</p>
+<div class="codehilite"><pre><span></span><span class="c1">; Exemplo: D = A&amp;D</span>
+<span class="nf">andw</span> <span class="o">%</span><span class="nv">A</span><span class="p">,</span> <span class="o">%</span><span class="nv">D</span><span class="p">,</span> <span class="o">%</span><span class="nv">D</span>
+</pre></div>
+
+<hr />
+<h4 id="or-operador-ou-or">OR - Operador OU (or)<a class="headerlink" href="#or-operador-ou-or" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p>orw reg/mem, rem/mem</p>
+</div>
+<p>A instrução <em>or</em> executa o operador lógico Ou (or).</p>
+<div class="codehilite"><pre><span></span><span class="c1">; Exemplo: D = RAM[A] | D</span>
+<span class="nf">orw</span> <span class="p">(</span><span class="o">%</span><span class="nv">A</span><span class="p">),</span> <span class="o">%</span><span class="nv">D</span><span class="p">,</span> <span class="o">%</span><span class="nv">D</span>
+</pre></div>
+
+<hr />
+<h4 id="jmp-jump">JMP - Jump<a class="headerlink" href="#jmp-jump" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p>jmp</p>
+</div>
+<p>A instrução <em>jmp</em> executa um desvio, no fluxo de
+execução, para o endereço armazenado em %A.</p>
+<div class="codehilite"><pre><span></span><span class="nf">jmp</span>
+</pre></div>
+
+<hr />
+<h4 id="je-desvia-execucao-se-igual-a-zero">JE - Desvia Execução se Igual a Zero<a class="headerlink" href="#je-desvia-execucao-se-igual-a-zero" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p>je reg</p>
+</div>
+<p>A instrução <em>je</em> faz um desvio, no fluxo de execução,
+para o endereço armazenado em %A, somente se o valor do reg. for igual a
+zero.</p>
+<div class="codehilite"><pre><span></span><span class="nf">je</span> <span class="o">%</span><span class="nv">S</span>
+</pre></div>
+
+<hr />
+<h4 id="jne-desvia-execucao-se-diferente-de-zero">JNE - Desvia Execução se Diferente de Zero<a class="headerlink" href="#jne-desvia-execucao-se-diferente-de-zero" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p>jne reg</p>
+</div>
+<p>A instrução <em>jne</em> faz um desvio, no fluxo de execução,
+para o endereço armazenado em %A, somente se o valor do reg. for
+diferente de zero.</p>
+<div class="codehilite"><pre><span></span><span class="nf">jne</span> <span class="o">%</span><span class="nv">D</span>
+</pre></div>
+
+<hr />
+<h4 id="jg-desvia-execucao-se-maior-que-zero">JG - Desvia Execução se Maior que Zero<a class="headerlink" href="#jg-desvia-execucao-se-maior-que-zero" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p>jg reg</p>
+</div>
+<p>A instrução <em>jg</em> desvia, o fluxo de execução, para o
+endereço armazenado em %A, somente se o valor do reg. for maior que
+zero.</p>
+<div class="codehilite"><pre><span></span><span class="nf">jg</span> <span class="o">%</span><span class="nv">s</span>
+</pre></div>
+
+<hr />
+<h4 id="jge-desvia-execucao-se-maior-igual-a-zero">JGE - Desvia Execução se Maior Igual a Zero<a class="headerlink" href="#jge-desvia-execucao-se-maior-igual-a-zero" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p>jge reg</p>
+</div>
+<p>A instrução <em>jge</em> faz um desvio, no fluxo de execução,
+para o endereço armazenado em %A, somente se o valor do reg. for maior
+ou igual a zero.</p>
+<div class="codehilite"><pre><span></span><span class="nf">jge</span> <span class="o">%</span><span class="nv">S</span>
+</pre></div>
+
+<hr />
+<h4 id="jl-desvia-execucao-se-menor-que-zero">JL - Desvia Execução se Menor que Zero<a class="headerlink" href="#jl-desvia-execucao-se-menor-que-zero" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p>jl reg</p>
+</div>
+<p>A instrução <em>jl</em> faz desvio, no fluxo de execução, para o
+endereço armazenado em %A, somente se o valor do reg. for menor que
+zero.</p>
+<div class="codehilite"><pre><span></span><span class="nf">jl</span> <span class="o">%</span><span class="nv">S</span>
+</pre></div>
+
+<hr />
+<h4 id="jle-desvia-execucao-se-menor-igual-a-zero">JLE - Desvia Execução se Menor Igual a Zero<a class="headerlink" href="#jle-desvia-execucao-se-menor-igual-a-zero" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p>jle reg</p>
+</div>
+<p>A instrução <em>jle</em> faz um desvio, no fluxo de execução,
+para o endereço armazenado em %A, somente se o valor do reg. for menor
+ou igual a zero.</p>
+<div class="codehilite"><pre><span></span><span class="nf">jle</span> <span class="o">%</span><span class="nv">D</span>
+</pre></div>
+
+<hr />
+<h4 id="nop-nao-faz-nada-no-operation">NOP - Não faz nada (No Operation)<a class="headerlink" href="#nop-nao-faz-nada-no-operation" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p>nop</p>
+</div>
+<p>A instrução <em>nop</em> não faz nada, usado para pular um ciclo
+de execução.</p>
+<div class="codehilite"><pre><span></span><span class="nf">nop</span>
+</pre></div>
+
+<hr />
+<h2 id="descricao-detalhada">Descrição Detalhada<a class="headerlink" href="#descricao-detalhada" title="Permanent link">&para;</a></h2>
+<p><strong>Formato das Instruções</strong></p>
+<p>Em Assembly, codificamos uma instrução por linha e ela é construída a
+partir do mnemônico da operação e seus argumentos. Além disso, temos
+marcadores de posição (endereço usado em desvios), constantes e
+possíveis variáveis. O formato das instruções na sintaxe AT&amp;T segue o
+seguinte formato:</p>
+<p>mnemônico origem, destino</p>
+<p><strong>Registradores</strong></p>
+<p>Todos os registradores devem ter como prefixo o sinal de porcentagem
+'%\', por exemplo: %A ou %D ou %S.</p>
+<p><strong>Valores Literais</strong></p>
+<p>Todos os valores literais devem ter como prefixo o sinal de cifrão
+'$\', por exemplo: $55, $376, sendo o maior valor 2047 (15 bits).</p>
+<p><strong>Endereçamento de Memória</strong></p>
+<p>Na sintaxe AT&amp;T, a memória é referenciada com parêntese em volta do
+registrador que armazena o endereço: por exemplo (%A).</p>
+<p><strong>Tamanho dos operadores</strong></p>
+<p>Algumas instruções podem trabalhar com diferentes tamanhos de dados,
+assim as instruções podem ter um sufixo, informando o tamanho do dado
+que irá manipular, sendo b (8 bits), w (16 bits) e l (32 bits). Por
+exemplo:</p>
+<p>movw $2000, (%A)</p>
+<p><strong>Instruções de Transferência de Controle</strong></p>
+<p>As instruções de jump, fazem o fluxo do programa desviar de uma posição
+do programa para outra. Para marcar as posições no programa, são usados
+marcadores (labels) que sempre terminam com dois pontos (:). Por
+exemplo: loop:</p>
+<p><strong>Registradores virtuais</strong></p>
+<p>Os símbolos R0, ..., R15 são automaticamente predefinidos para se
+referir aos endereços de RAM 0, ..., 15</p>
+<p><strong>Ponteiros de I/O</strong></p>
+<p>Os símbolos SCREEN e KBD são automaticamente predefinidos para se
+referir aos endereços de RAM 16384 e 24576, respectivamente.</p>
+<p><strong>Ponteiros de controle da VM</strong></p>
+<p>Os símbolos SP, LCL, ARG, THIS, e THAT são automaticamente predefinidos
+para se referir aos endereços de RAM 0-4, respectivamente.</p>
+<p><strong>Notações:</strong></p>
+<p>im : valor imediato (somente os valores 1, 0 e -1).</p>
+<p>reg : registrador.</p>
+<p>mem: memória, ou seja (%A).</p>
+<p><strong>Limitações:</strong></p>
+<ul>
+<li>
+<p>A arquitetura não permite somar o valor da memória apontada por (%A)
+    com o valor de %A, ou de (%A) com (%A), tampouco %A com %A.</p>
+</li>
+<li>
+<p>Não é possível somar (ou subtrair, se é que isso faz sentido) o
+    registrador com o mesmo, por exemplo somar %D com %D.</p>
+</li>
+<li>
+<p>Não é possível ler e gravar a memória ao mesmo tempo. Por exemplo,
+    as instruções abaixo não funcionam no nosso computador:</p>
+<ul>
+<li>incw (%A);</li>
+<li>subw (%A),%D,(%A).</li>
+</ul>
+</li>
+</ul>
+<p><strong>Observação:</strong></p>
+<p>A linguagem Assembly apresentada é especifica para o processador
+produzido no curso. Embora muito similar a outras usadas em produtos de
+mercado, as instruções possuem limitações inerentes a cada hardware.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../F-Assembly-Dicas/" title="Dicas" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Dicas
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../E-Sequencial-Projeto/" title="Projeto" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Projeto
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; Rafael Corsi @ insper
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.1f8d785c.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
